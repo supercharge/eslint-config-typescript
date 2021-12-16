@@ -1,5 +1,5 @@
 {
-  "name": "@supercharge/eslint-config-supercharge-with-typescript",
+  "name": "@supercharge/eslint-config-typescript",
   "description": "A Shareable ESLint Config for Supercharge Projects using TypeScript",
   "version": "0.0.0",
   "author": "Marcus Pöhls <marcus@superchargejs.com>",
