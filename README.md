@@ -1,4 +1,4 @@
-# eslint-config-supercharge-with-typescript
+# @supercharge/eslint-config-typescript
 A shareable ESLint config for projects using TypeScript.
 
 
