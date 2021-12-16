@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/supercharge/eslint-config-supercharge-with-typescript/issues"
   },
+  "peerDependencies": {
+    "eslint": "7.x"
+  },
   "devDependencies": {
     "@supercharge/tsconfig": "~3.1.0",
     "@types/eslint": "~7.29.0",
