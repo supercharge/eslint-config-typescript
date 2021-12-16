@@ -5,7 +5,7 @@ A shareable ESLint config for projects using TypeScript.
 ## Installation
 
 ```bash
-npm i -D eslint @supercharge/eslint-config-supercharge-with-typescript
+npm i -D eslint@7 @supercharge/eslint-config-typescript
 ```
 
 
