@@ -7,20 +7,22 @@
     "url": "https://github.com/supercharge/eslint-config-typescript/issues"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "~4.33.0",
-    "eslint-config-standard-with-typescript": "~21.0.1",
-    "eslint-plugin-import": "~2.25.3",
-    "eslint-plugin-node": "~11.1.0",
-    "eslint-plugin-promise": "~5.2.0",
-    "eslint-plugin-standard": "~4.1.0"
+    "@supercharge/eslint-config": "~1.0.0",
+    "@typescript-eslint/eslint-plugin": "~5.24.0",
+    "@typescript-eslint/parser": "~5.24.0"
   },
   "peerDependencies": {
-    "eslint": "7.x"
+    "eslint": "8.x"
   },
   "devDependencies": {
+    "@japa/run-failed-tests": "~1.0.7",
+    "@japa/runner": "~2.0.7",
+    "@japa/spec-reporter": "~1.1.12",
     "@supercharge/tsconfig": "~3.1.0",
-    "eslint": "~7.32.0",
-    "typescript": "~4.4.4"
+    "@types/eslint": "~8.4.2",
+    "eslint": "~8.15.0",
+    "expect": "~28.1.0",
+    "typescript": "~4.6.4"
   },
   "main": "dist/index.js",
   "files": [
@@ -48,6 +50,7 @@
     "dev": "tsc --watch",
     "lint": "eslint src",
     "lint:fix": "npm run lint -- --fix",
-    "test": "exit 0"
+    "test": "npm run build && npm run test:run",
+    "test:run": "node bin/test.js"
   }
 }
