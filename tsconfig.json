@@ -4,10 +4,11 @@
     "outDir": "./dist"
   },
   "include": [
-    "./src/*"
+    "./**/*"
   ],
   "exclude": [
     "./node_modules",
+    "./bin",
     "./test",
     "./dist"
   ]
