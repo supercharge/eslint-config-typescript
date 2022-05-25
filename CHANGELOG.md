@@ -1,6 +1,15 @@
 # Changelog
 
 
+## 2.1.0 - 2022-05-25
+
+### Added
+- support TypeScript 4.7
+
+### Updated
+- bump dependencies
+
+
 ## 2.0.0 - 2022-05-18
 
 ### Added
