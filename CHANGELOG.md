@@ -1,7 +1,16 @@
 # Changelog
 
 
-## 2.1.0 - 2022-05-25
+## [2.2.0](https://github.com/supercharge/eslint-config-typescript/compare/v2.1.0...v2.2.0) - 2022-06-01
+
+### Updated
+- bump dependencies
+
+### Removed
+- removed the rule for `method-signature-style` allowing users to use shorthand method definitions
+
+
+## [2.1.0](https://github.com/supercharge/eslint-config-typescript/compare/v2.0.0...v2.1.0) - 2022-05-25
 
 ### Added
 - support TypeScript 4.7
@@ -10,7 +19,7 @@
 - bump dependencies
 
 
-## 2.0.0 - 2022-05-18
+## [2.0.0](https://github.com/supercharge/eslint-config-typescript/compare/v1.0.0...v2.0.0) - 2022-05-18
 
 ### Added
 - enrolled our own rule set to avoid the dependency on `standard-with-typescript`
