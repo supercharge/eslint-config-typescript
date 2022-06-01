@@ -153,7 +153,6 @@ const config: Linter.Config = {
           multiline: { delimiter: 'none' },
           singleline: { delimiter: 'comma', requireLast: false },
         }],
-        '@typescript-eslint/method-signature-style': 'error',
         '@typescript-eslint/naming-convention': ['error', {
           selector: 'variableLike',
           leadingUnderscore: 'allow',
