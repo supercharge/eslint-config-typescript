@@ -7,22 +7,22 @@
     "url": "https://github.com/supercharge/eslint-config-typescript/issues"
   },
   "dependencies": {
-    "@supercharge/eslint-config": "~1.0.0",
-    "@typescript-eslint/eslint-plugin": "~5.27.0",
-    "@typescript-eslint/parser": "~5.27.0"
+    "@supercharge/eslint-config": "~1.1.0",
+    "@typescript-eslint/eslint-plugin": "~5.28.0",
+    "@typescript-eslint/parser": "~5.28.0"
   },
   "peerDependencies": {
     "eslint": "8.x"
   },
   "devDependencies": {
     "@japa/run-failed-tests": "~1.0.7",
-    "@japa/runner": "~2.0.8",
+    "@japa/runner": "~2.0.9",
     "@japa/spec-reporter": "~1.1.12",
     "@supercharge/tsconfig": "~3.1.0",
-    "@types/eslint": "~8.4.2",
-    "eslint": "~8.16.0",
-    "expect": "~28.1.0",
-    "typescript": "~4.7.2"
+    "@types/eslint": "~8.4.3",
+    "eslint": "~8.17.0",
+    "expect": "~28.1.1",
+    "typescript": "~4.7.3"
   },
   "main": "dist/index.js",
   "files": [
