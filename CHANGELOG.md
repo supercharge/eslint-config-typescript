@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [2.3.0](https://github.com/supercharge/eslint-config-typescript/compare/v2.2.0...v2.3.0) - 2022-06-13
+
+### Added
+- added `no-constant-binary-expression: 'error'` rule in `@supercharge/eslint-config`
+
+### Updated
+- bump dependencies
+
+### Removed
+- removed the rule for `method-signature-style` allowing users to use shorthand method definitions
+
+
 ## [2.2.0](https://github.com/supercharge/eslint-config-typescript/compare/v2.1.0...v2.2.0) - 2022-06-01
 
 ### Updated
