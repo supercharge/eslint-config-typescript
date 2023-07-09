@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.0](https://github.com/supercharge/eslint-config-typescript/compare/v2.3.4...v3.0.0) - 2023-07-09
+
+### Updated
+- bump dependencies
+
+### Breaking Changes
+- require at least Node.js 16
+- default to `ecmaVersion` 2021
+
 
 ## [2.3.4](https://github.com/supercharge/eslint-config-typescript/compare/v2.3.3...v2.3.4) - 2023-05-14
 
