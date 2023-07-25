@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.0.1](https://github.com/supercharge/eslint-config-typescript/compare/v3.0.0...v3.0.1) - 2023-07-25
+
+### Fixed
+- removed outdated (and invalid in v6) `checkCompoundAssignments` option from [`restrict-plus-operands`](https://typescript-eslint.io/rules/restrict-plus-operands/). The related option is now called `skipCompoundAssignments` and it’s default value is `true` (which is what we want)
+
+
 ## [3.0.0](https://github.com/supercharge/eslint-config-typescript/compare/v2.3.4...v3.0.0) - 2023-07-09
 
 ### Updated
