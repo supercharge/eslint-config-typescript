@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/supercharge/eslint-config-typescript/issues"
   },
+  "engines": {
+    "node": ">= 16"
+  },
   "dependencies": {
     "@supercharge/eslint-config": "~2.0.0",
     "@typescript-eslint/eslint-plugin": "~5.61.0",
