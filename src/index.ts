@@ -197,9 +197,7 @@ const config: Linter.Config = {
         '@typescript-eslint/require-array-sort-compare': ['error', {
           ignoreStringArrays: true
         }],
-        '@typescript-eslint/restrict-plus-operands': ['error', {
-          checkCompoundAssignments: true
-        }],
+        '@typescript-eslint/restrict-plus-operands': ['error'],
         '@typescript-eslint/restrict-template-expressions': ['error', {
           allowNumber: true
         }],
