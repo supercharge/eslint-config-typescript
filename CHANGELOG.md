@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/supercharge/eslint-config-typescript/compare/v3.0.1...v4.0.0) - 2023-10-11
+
+### Updated
+- bump dependencies
+
+### Breaking Changes
+- require at least Node.js 18
+- bump `@typescript-eslint/parser` to v6.x
+- bump `@typescript-eslint/eslint-plugin` to v6.x
+
+
 ## [3.0.1](https://github.com/supercharge/eslint-config-typescript/compare/v3.0.0...v3.0.1) - 2023-07-25
 
 ### Fixed
