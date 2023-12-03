@@ -88,11 +88,12 @@ const config: Linter.Config = {
         }],
 
         'no-unused-vars': 'off',
+
         /**
-     * TypeScript already catches unused variables. We may add this rule later if
-     * there’s something this rule would catch that TypeScript doesn’t. For now,
-     * we’re leaving this rule turned off and just rely on TypeScript’s help.
-     */
+         * TypeScript already catches unused variables. We may add this rule later if
+         * there’s something this rule would catch that TypeScript doesn’t. For now,
+         * we’re leaving this rule turned off and just rely on TypeScript’s help.
+         */
         // '@typescript-eslint/no-unused-vars': ['error', {
         //   args: 'none',
         //   caughtErrors: 'none',
