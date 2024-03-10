@@ -12,7 +12,7 @@ npm i -D eslint@8 @supercharge/eslint-config-typescript
 ### Compatibility
 | `eslint` | `@supercharge/eslint-config-typescript` |
 | -------- | --------------------------------------- |
-| `8.x`    | `2.x`                                   |
+| `8.x`    | `>=2.x`                                   |
 | `7.x`    | `1.x`                                   |
 
 
