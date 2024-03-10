@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.2](https://github.com/supercharge/eslint-config-typescript/compare/v4.0.1...v4.0.2) - 2024-03-10
+
+### Updated
+- bump dependencies
+
+
 ## [4.0.1](https://github.com/supercharge/eslint-config-typescript/compare/v3.0.1...v4.0.1) - 2023-12-03
 
 ### Updated
